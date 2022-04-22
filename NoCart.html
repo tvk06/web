@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>cart</title>
+    <link rel="stylesheet" href="cartPhone.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="details.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Home">
+                <div class="Home-img">
+                    <a href="index.html"> <img src="img/logo/logoT.png" alt=""></a>
+                </div>
+                <div class="Home-txt">
+                    <a href="index.html">
+                        <p>TECH.VN</p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="search">
+                <input type="text" class="txtSearch" id="myInput" onkeyup="myFunction()" placeholder="Nhập nội dung tìm kiếm">
+                <input type="button" value="Search" id="tim" name="tim" class="btn" onclick="search();" />
+
+            </div>
+            <div class="login">
+                <a href="login.html">Đăng nhập</a>
+            </div>
+        </nav>
+
+        <div class="menu">
+
+            <ul id="myUL">
+                <li><a href="index.html">Trang chủ</a>
+                </li>
+                <li><a href="">Sản phẩm</a>
+                    <ul class="sub">
+                        <li><a href="apple.html">Apple</a></li>
+                        <li><a href="samsung.html">Samsung</a></li>
+                        <li><a href="xiaomi.html">Xiaomi</a></li>
+                        <li><a href="nokia.html">Nokia</a></li>
+                        <li><a href="hangcu.html">Hàng cũ</a></li>
+                    </ul>
+                </li>
+                <li><a href="lienhe.html" target="_blank">Liên hệ</a>
+                    <ul class="sub">
+
+
+                    </ul>
+                </li>
+                <li><a href="Gioi-thieu.html">Giới thiệu</a>
+                    <ul class="sub">
+
+
+                    </ul>
+                </li>
+                <li><a href="cart.html">Giỏ hàng</a>
+
+                </li>
+
+
+
+            </ul>
+
+        </div>
+    </header>
+    <div class="quaylai">
+        <p style="padding-left:50px;">
+            <a href="index.html">Trang chủ</a> &nbsp;>&nbsp; <a href="apple.html">Đơn hàng</a>
+        </p>
+    </div>
+    <div class="main">
+
+
+        <br><br>
+        <div class="clear"></div>
+        <div class="main-row2">
+            <div class="main-col">
+
+
+                <div id="feedback" class="block-section">
+                    <div class="block-feed">
+                        <div class="cart-head">
+                            <div class="blockSP">
+                                <a href="index.html">
+                                    <p>
+                                        << Mua thêm sản phẩm khác</p>
+                                </a>
+                            </div>
+                            <div class="blockGH">
+                                <a href="#">
+                                    <p>
+                                        Giỏ hàng của bạn </p>
+                                </a>
+                            </div>
+                        </div>
+                        <hr class="line">
+                        <!-- đơn hàng hiển thị-->
+                        <div class="shopcart-product">
+                            <p>Giỏ hàng hiện tại chưa có sản phẩm nào</p>
+                        </div>
+                        <hr class="line">
+                        <div class="block-content">
+                            <form action="review-form" method="post" action="" enctype="multipart/form-data">
+                                <fieldset class="form-fiel">
+                                    <div class="form-KH">
+                                        <div class="info-KH">
+                                            <h3>THÔNG TIN KHÁCH HÀNG</h3> <br>
+                                            <input type="radio" name="rdGender" value="Nam">Anh
+                                            <input type="radio" name="rdGender" value="Nữ">Chị
+                                        </div>
+                                        <div class="name">
+
+                                            <span>Họ và Tên</span><br />
+                                            <input type="text" name="name" id="name" required="required" style="padding: 2px; width: 80%;" placeholder="Nhập họ và tên" runat="server" /><br />
+                                        </div>
+                                        <div class="phone">
+                                            <span>Số điện thoại</span><br />
+                                            <input type="text" name="name" id="name" required="required" style="padding: 2px; width: 80%;" placeholder="Nhập số điện thoại" runat="server" /><br />
+                                        </div>
+                                        <div class="info-Address">
+                                            <h3>CHỌN ĐỊA CHỈ NHẬN HÀNG</h3>
+                                            <br />
+                                            <div class="add-detail">
+                                                <div class="city">
+                                                    <input type="text" name="" id="tp" placeholder="Nhập tỉnh/thành phố của bạn">
+                                                </div>
+                                                <div class="huyen">
+                                                    <input type="text" name="" id="tp" placeholder="Nhập quận/huyện/thị xã">
+                                                </div>
+                                                <div class="xa">
+                                                    <input type="text" name="" id="tp" placeholder="Nhập xã/phường/thị trấn">
+                                                </div>
+                                                <div class="thon">
+                                                    <input type="text" name="" id="tp" placeholder="Nhập số nhà, tên đường">
+                                                </div>
+                                            </div>
+
+
+                                            <div class="btn1">
+                                                <input type="button" value="Gửi đơn hàng (COD)" id="btnGui">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+                            </form>
+                        </div>
+
+                    </div>
+                    <hr class="line">
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="main-row3">
+            <div class="bonus">
+                <div class="title-bonus">
+                    <h1>
+                        <a title="Các sản phẩm nổi bật" href="#">
+                            <p> Xem thêm điện thoại khác</p>
+                        </a>
+                    </h1>
+                </div>
+                <div class="xemthem">
+
+                    <p class="chitiet"><a href="index.html">Xem thêm >></a></p>
+                </div>
+                <div class="Grid-content">
+
+                    <div class="ite-con">
+                        <a href="sp.html"><img src="img/ip13.jpg" alt="">
+                        </a>
+                        <div class="ite-title">
+                            <h3 class="ip13"><a href="ip13.html">Iphone 13 512GB chính hãng (VN/A)</a></h3>
+                            <div class="price">
+                                <span class="normal-price">
+                                    <span class="sale">24.490.000&nbsp;đ</span>
+                                <span class="giagoc">31.890.000&nbsp;đ</span>
+                                </span>
+                                <div class="tratruoc">
+                                    <span class="label">Hoặc trả trước</span>
+                                    <span class="priceTratruoc">7.647.000&nbsp;đ</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="ite-con">
+                        <a href="sp.html"><img src="img/SamsungZFlip3.jpg" alt="">
+                        </a>
+                        <div class="ite-title">
+                            <h3 class="ip13"><a href="ip13.html">Samsung Galaxy Z Flip3 5G (8GB|256GB) Chính Hãng</a></h3>
+                            <div class="price">
+                                <span class="normal-price">
+                                    <span class="sale">20.390.000&nbsp;đ</span>
+                                <span class="giagoc">26.990.000&nbsp;đ</span>
+                                </span>
+                                <div class="tratruoc">
+                                    <span class="label">Hoặc trả trước</span>
+                                    <span class="priceTratruoc">2.039.000&nbsp;đ</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="ite-con">
+                        <a href="sp.html"><img src="img/remi10black.jpg" alt="">
+                        </a>
+                        <div class="ite-title">
+                            <h3 class="ip13"><a href="ip13.html">Xiaomi Redmi Note 10 (4GB|64GB) Chính Hãng</a></h3>
+                            <div class="price">
+                                <span class="normal-price">
+                                    <span class="sale">3.590.000&nbsp;đ</span>
+                                <span class="giagoc">3.990.000&nbsp;đ</span>
+                                </span>
+                                <div class="tratruoc">
+                                    <span class="label">Hoặc trả trước</span>
+                                    <span class="priceTratruoc">359.000&nbsp;đ</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="ite-con">
+                        <a href="sp.html"><img src="img/ip11.jpg" alt="">
+                        </a>
+                        <div class="ite-title">
+                            <h3 class="ip13"><a href="ip13.html">Iphone 11 128GB Chính Hãng</a></h3>
+                            <div class="price">
+                                <span class="normal-price">
+                                    <span class="sale">13.990.000&nbsp;đ</span>
+                                <span class="giagoc">18.590.000&nbsp;đ</span>
+                                </span>
+                                <div class="tratruoc">
+                                    <span class="label">Hoặc trả trước</span>
+                                    <span class="priceTratruoc">4.197.000&nbsp;đ</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="ite-con">
+                        <a href="sp.html"><img src="img/nokiaG10.png" alt="">
+                        </a>
+                        <div class="ite-title">
+                            <h3 class="ip13"><a href="ip13.html">Nokia G10 (4GB|64GB) Chính Hãng</a></h3>
+                            <div class="price">
+                                <span class="normal-price">
+                                    <span class="sale">2.990.000&nbsp;đ</span>
+                                <span class="giagoc">3.690.000&nbsp;đ</span>
+                                </span>
+                                <div class="tratruoc">
+                                    <span class="label">Hoặc trả trước</span>
+                                    <span class="priceTratruoc">900.000&nbsp;đ</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+        <div class="footer ">
+            <hr style="color:black;font-weight:bold; " />
+            <div style="height:20px; ">
+
+
+                <nav style="padding: 10px; ">
+                    <div class="Home">
+                        <div class="Home-img">
+                            <a href="index.html"> <img src="img/logo/logoT.png" alt=""></a>
+                        </div>
+                        <div class="Home-txt">
+                            <a href="index.html">
+                                <p>TECH.VN</p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="search ">
+                        <input type="text " class="txtSearch " placeholder="Nhập nội dung tìm kiếm ">
+                        <input type="button " value="Search " class="btn ">
+
+                    </div>
+
+                </nav>
+                <hr style="color:black;font-weight:bold; " />
+                <div class="fo" style="height:100px;">
+                    <div class="fo-left">
+                        <span>
+                        <h3>CHĂM SÓC KHÁCH HÀNG</h3>
+                        <P>Hotline: 1900 1111</P>
+                        <p>Giờ làm việc: 7:00 - 23:00</p>
+                        <p>Email hỗ trợ: hotro102@gmail.com</p>
+                        </span>
+                    </div>
+                    <div class="fo-center">
+                        <div class="listShop">
+                            <h3>HỆ THỐNG CỬA HÀNG</h3>
+                        </div>
+                        <div class="wraplist">
+                            <div class="itemList">
+                                <div class="addr">
+
+                                    <span>- Cơ sở 1:</span>
+                                    <a href="">96 Định Công, Thanh Xuân, Hà Nội</a>
+                                </div>
+                                <div class="phone">
+                                    <span>Hotline: </span>
+                                    <a href="">0988885688</a>
+                                </div>
+                            </div>
+                            <div class="itemList">
+                                <div class="addr">
+
+                                    <span>- Cơ sở 2:</span>
+                                    <a href="">Bách Khoa, Hai Bà Trưng, Hà Nội</a>
+                                </div>
+                                <div class="phone">
+                                    <span>Hotline: </span>
+                                    <a href="">0988886666</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fo-right">
+                        <span>
+                        <h3>ĐIỀU KHOẢN SỬ DỤNG</h3>
+    
+                        <span>Điều khoản chung <br>
+                        
+                            Điều khoản giao dịch <br>
+                             Chính sách thanh toán<br>
+                            Chính sách bảo mật<br>
+                            Câu hỏi thường gặp <br>
+                        </span>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="scroll"><a href="#">Lên đầu trang</a></div>
+
+            <div class="fooend" style="height:150px;text-align:center; padding-top: 210px;">
+
+                <p style="padding-bottom:10px;font-weight:bold;padding-top:20px;">CÔNG TY TNHH TECH.VN</p>
+                <p style="padding-bottom:5px;">Giấy CNĐKDN: 1234567890, đăng ký lần đầu ngày 02/02/2002, đăng ký thay đổi lần thứ 5 ngày 03/03/2003, cấp bởi Sở KHĐT thành phố Hà Nội.</p>
+                <p style="padding-bottom:5px;">Địa Chỉ: 96 Định Công, Hoàng Mai, Hà Nội.</p>
+                <p>Hotline: 1900 1111</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

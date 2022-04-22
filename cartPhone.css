@@ -1,0 +1,112 @@
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.head-tr th {
+    background: #f1f1f1;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.name-product {
+    line-height: 20px;
+}
+
+.name-product img {
+    max-width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s;
+}
+
+.numbers-pro {
+    height: 30px;
+    padding: 2px 5px;
+    border-radius: 4px;
+    border: 1px solid #d8d7d7;
+    color: #333;
+    max-width: 100%;
+    text-align: center;
+}
+
+.price {
+    color: red;
+    font-weight: 500;
+}
+
+
+/********************************************/
+
+.main-col {
+    width: 80%;
+    align-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.cart-head {
+    padding-bottom: 20px;
+}
+
+.cart-head a {
+    text-decoration: none;
+}
+
+.blockSP {
+    display: block;
+    float: left;
+}
+
+.blockGH {
+    display: block;
+    float: right;
+}
+
+.blockSP a:hover {
+    color: blue;
+}
+
+.info-Address {
+    padding-top: 30px;
+}
+
+.info-KH input {
+    width: 5%;
+}
+
+.name,
+.phone {
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.add-detail {
+    line-height: 40px;
+}
+
+#tp {
+    width: 80%;
+    height: 30px;
+}

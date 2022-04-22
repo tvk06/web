@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chi tiết điện thoại</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="details.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Home">
+                <div class="Home-img">
+                    <a href="index.html"> <img src="img/logo/logoT.png" alt=""></a>
+                </div>
+                <div class="Home-txt">
+                    <a href="index.html">
+                        <p>TECH.VN</p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="search">
+                <input type="text" class="txtSearch" id="myInput" onkeyup="myFunction()" placeholder="Nhập nội dung tìm kiếm">
+                <input type="button" value="Search" id="tim" name="tim" class="btn" onclick="search();" />
+
+            </div>
+            <div class="login">
+                <a href="login.html">Đăng nhập</a>
+            </div>
+        </nav>
+
+        <div class="menu">
+
+            <ul id="myUL">
+                <li><a href="index.html">Trang chủ</a>
+                </li>
+                <li><a href="">Sản phẩm</a>
+                    <ul class="sub">
+                        <li><a href="apple.html">Apple</a></li>
+                        <li><a href="samsung.html">Samsung</a></li>
+                        <li><a href="xiaomi.html">Xiaomi</a></li>
+                        <li><a href="nokia.html">Nokia</a></li>
+                        <li><a href="hangcu.html">Hàng cũ</a></li>
+                    </ul>
+                </li>
+                <li><a href="lienhe.html" target="_blank">Liên hệ</a>
+
+                </li>
+                <li><a href="Gioi-thieu.html">Giới thiệu</a>
+                    <ul class="sub">
+
+
+                    </ul>
+                </li>
+                <li><a href="cart.html">Giỏ hàng</a>
+
+                </li>
+
+
+
+            </ul>
+
+        </div>
+    </header>
+    <div class="quaylai">
+        <p style="padding-left:50px;">
+            <a href="index.html">Trang chủ</a> &nbsp;>&nbsp; <a href="apple.html">Apple</a>&nbsp;>&nbsp; <a href="">Chi tiết điện thoại</a>
+        </p>
+    </div>
+    <div class="main">
+
+
+        <div class="main2">
+            <div class="main2-pos">
+                <div class="item">
+                    <a href="apple.html"><img src="img/bannerApple.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="samsung.html"><img src="img/bannerSS.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="xiaomi.html"><img src="img/bannerXiaomi.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="nokia.html"><img src="img/bannerNokia.png" alt=""></a>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <!-- IPHONE NỔI BẬT -->
+
+
+        <div class="main-row">
+            <div class="main-col9">
+                <div class="items1">
+                    <div class="items1-img">
+                        <a href=""><img id="img1" src="img/ip13.jpg" alt="Iphone 13">
+                        </a>
+                        <span>iPhone 13 128GB Chính hãng (VN/A) bán tại Di Động Việt - Đại lý uỷ quyền chính thức của Apple tại Việt Nam, iPhone 13 mini là phiên bản quốc tế 2 sim (Nano + Esim) chính hãng VN/A. Máy chưa Active + nguyên seal hộp, mới 100% (Fullbox)
+                        </span><br><br>
+                        <span>iPhone 13 128GB Chính hãng (VN/A) là phiên bản được phân phối chính thức bởi Apple Việt Nam, được bảo hành 12 tháng tại Trung tâm Uỷ quyền cao cấp nhất của Apple tại Việt Nam và trên toàn cầu miễn phí. Đồng thời hưởng nhiều ưu đãi, khuyến mãi hấp dẫn tại Di Động Việt.</span>
+                    </div>
+                    <div class="items1-text">
+                        <div class="items1-text-1">
+                            <h3>Iphone 13 128GB Chính Hãng (VN/A)</h3>
+                            <div class="normal-pric">
+                                <span class="sales">20.890.000&nbsp;đ</span>
+                                <span id="giagoc">24.190.000&nbsp;đ</span>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="grid-releated">
+                                <div class="item-releated">
+                                    <a href="">
+                                        <span><i>128</i>128GB</span>
+                                        <strong>
+                                            <span class="price-related">20.890.000&nbsp;đ</span>
+                                        </strong>
+                                    </a>
+                                </div>
+                                <div class="item-releated">
+                                    <a href="">
+                                        <span><i></i>256GB</span>
+                                        <strong>
+                                            <span class="price-related">23.690.000&nbsp;đ</span>
+                                        </strong>
+                                    </a>
+                                </div>
+                                <div class="item-releated">
+                                    <a href="">
+                                        <span><i></i>512GB</span>
+                                        <strong>
+                                            <span class="price-related">25.490.000&nbsp;đ</span>
+                                        </strong>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="product-form">
+                            <div class="product-pro">
+                                <!--  <section class="pro-wrap">
+                                    <div class="pro-info">
+                                        <ul class="pro-detail"></ul>
+                                    </div>
+                                </section>-->
+                                <fieldset class="fiel">
+                                    <legend><strong>&nbsp;&nbsp; Khuyến mãi, ưu đãi &nbsp;&nbsp;</strong></legend>
+                                    <table class="table">
+                                        <tr>
+                                            <td>
+                                                <ul>
+                                                    <li>- Tặng thêm <strong><span style="color: #ff0000;">1 triệu</span></strong> khi <strong>Thu cũ - Đổi mới </strong>&nbsp; <a href="">(Xem chi tiết)</a>
+                                                    </li>
+                                                    <li>- Giảm thêm đến <strong><span style="color: #ff0000;">500.000đ</span></strong> khi <strong>thanh toán qua VNPay </strong>&nbsp; <a href="">(Xem chi tiết)</a>
+                                                    </li>
+                                                    <li>- Tặng kèm <strong>PMH</strong> <strong><span style="color: #ff0000;">300.000đ</span></strong> cho các dòng <a href="">Điện thoại khác</a>
+                                                    </li>
+                                                </ul>
+                                                <hr style="margin-top: 16px;
+                                                margin-bottom: 16px;
+                                                border-top: 1px solid #cccccc;
+                                                border-color: #e0e0e0;">
+                                                <ul>
+                                                    <h4>&nbsp;&nbsp; Có 4 ưu đãi nổi bật mua kèm máy</h4>
+                                                    <li>- Giảm đến <strong><span style="color: #ff0000;">44%</span></strong> khi mua kèm <strong><span style="color: rgb(45, 75, 245);">phụ kiện chính hãng Apple</span></strong></li>
+                                                    <li>- Tặng PMH <strong><span style="color: #ff0000;">10%</span></strong> cho các bạn <strong><span style="color: rgb(45, 75, 245);">Học sinh - Sinh Viên</span></strong></li>
+                                                    <li>- Tặng PMH <strong><span style="color: #ff0000;">15%</span></strong>cho khách hàng mua từ 2 sản phẩm trở lên</li>
+                                                    <li>- Mua kèm <strong><span style="color: rgb(45, 75, 245);">Sim 4G Data Itelcom</span></strong>giá chỉ còn <strong><span style="color: #ff0000;">165.000đ</span></strong> (Giá niêm yết 199.000đ) </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </fieldset>
+
+                            </div>
+                            <div class="product-options">
+                                <div class="box-tocart">
+                                    <div class="actions">
+                                        <a href="cart.html">
+                                            <button type="submit" title="Đặt ngay" class="action2">
+                                            <span>Đặt ngay</span>
+                                            <p>Giao hàng tận nơi hoặc nhận tại cửa hàng</p>
+                                        </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+            </div>
+            <div class="main-col3 ">
+                <div class="block-section">
+                    <div class="info-BH">
+                        <strong>Bộ sản phẩm</strong>
+                    </div>
+                    <div class="info-content">
+                        <p>Bộ sản phẩm gồm: Thân máy, Cáp USB-C to Lightning, Cây lấy sim, Sách HSD.
+                        </p>
+                    </div>
+                    <hr class="line">
+                    <div class="info-V2">
+                        <div class="info-V2-1">
+                            <strong>Bảo hành</strong>
+                        </div>
+                        <div class="info-content">
+                            <ul>
+                                <li>Giá đã bao gồm 10% VAT. Bảo hành <strong>12 tháng</strong> tại trung tâm bảo hành chính hãng Apple Việt Nam. (<a href="">Xem chi tiết</a>)&nbsp;</li>
+                                <li><strong>Bảo hành <span style="color: #ff0000;">1 đổi 1 trong 33 ngày</span>độc quyền tại Tech.VN</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--------------------------------------Feedback của khách hàng-------------------------------------------------------------------->
+        <div class="main-row2">
+            <div class="main-col8">
+                <div class="intro-pro">
+                    <div class="txt1">
+                        <p>
+                            <strong><a href="apple.html"><span style="color: rgb(11, 143, 244);">Iphone 13 Pro Max 128GB </span></a>
+                        </strong> là siêu phẩm tiếp theo được Apple "trình làng", là model được mong đợi nhất trong năm 2021. iPhone 13 Pro Max cũng là phiên bản cao cấp nhất trong dòng iPhone 13 Series. Máy sẽ có thiết kế
+                            và cấu hình ấn tượng với người dùng.</p>
+                    </div>
+                    <div class="txt2">
+                        <p>Thiết kế ấn tượng, đa màu sắc</p>
+                    </div>
+                    <div class="txt3">
+                        <div class="txt3-con1">
+                            <p>Tương tự như <strong> iPhone 12</strong>, điện thoại iPhone 13 Pro Max 128GB cũng sở hữu thiết kế sang trọng với các viền canh máy được làm phẳng, các chi tiết góc cạnh được làm tỉ mỉ tạo nên một chiếc iPhone siêu xịn, đáp
+                                ứng nhu cầu thẩm mỹ người dùng.
+                            </p>
+                            <p>
+                                iPhone 13 Pro Max được hoàn chỉnh với thiết kế nguyên khối bằng chất liệu thép không gỉ. 2 mặt của máy được làm bằng kính cường lực Ceramic Shield. Chỉ có một phần khác biệt là ở camera máy nay đã to hơn rất nhiều khi so với phiên bản tiền nhiệm. Lí do
+                                cho việc này là vì Apple đã nâng cấp khẩu độ của chiếc camera nên khiến nó to hơn nên các linh kiện phần cứng của camera cũng to hơn.
+                            </p>
+                            <img src="img/detail/iphone13.jpg" id="img" alt="">
+                            <p>iPhone 13 Pro Max 128GB không chỉ sở hữu thiết kế đẹp, sang trọng mà máy được trang bị đầy đủ các tính năng như chống nước đạt chuản IP68. Máy còn được phủ thêm một lớp chống vân tay ở viền trên máy giúp hạn chế tối đa khả
+                                năng bám vân tay trên sản phẩm.Với iPhone 13 Pro Max người dùng có thể thoải mái lựa chọn các phiên bản màu sắc khác nhau để đáp ứng nhu cầu thẩm mỹ của mình. </p>
+                        </div>
+                        <div class="txt3-detail">
+                            <details>
+                                <summary style="padding-bottom: 10px;">
+                                    <p> Nhấn vào để đọc tiếp >>> </p>
+                                </summary>
+                                <div class="txt3-con2">
+                                    <h4>Màn hình kích thước 6.7 inch, tốc độ 120HZ</h4>
+                                    <p>iPhone 13 Pro Max sẽ có kích thước màn hình đến 6.7 inch, cùng với đó là tấm nền Super Retina XDR OLED, hứa hẹn sẽ đem đến một không gian hiển thị vô cùng rộng lớn cùng chất lượng màu sắc tinh tế. Đặc biệt hơn phần
+                                        notch sẽ được làm ngắn lại khoảng 20%, góp phần làm cho không gian màn hình thêm rộng hơn.</p>
+                                    <img src="img/detail/ip12-2.jpg" id="img" alt="">
+                                    <p>Ngoài ra, màn hình iPhone 13 Pro Max với tốc độ làm tươi đạt 120Hz sẽ giúp hình ảnh, màu sắc trên máy chuyển động 1 cách mượt mà hơn. Và nó sẽ đánh dấu bước chuyển đổi quan trọng trên màn hình iPhone 13 Pro Series.
+                                    </p>
+
+                                </div>
+                                <div class="txt3-con3">
+                                    <h4>Hiệu năng cao cấp với chip Apple A15</h4>
+                                    <p>Với mỗi thế hệ iPhone, Apple lại cố gắng mang đến những nâng cấp đáng kể, đặc biệt là cấu hình. iPhone 13 series ra mắt 2021 các chip khác trên thị trường cùng 15 tỉ bóng bán dẫn giúp hiệu năng CPU nhanh hơn 40% và
+                                        GPU nhanh hơn 80% so với thế hệ tiền nhiệm.
+                                    </p>
+                                    <img src="img/detail/ip13-3.jpg" id="img" alt="">
+                                    <p>Đi kèm với 16 nhân Neural Engine giúp khả năng máy học (Machine Learning) trên iPhone 13 Pro Max được cải thiện hơn. Giúp những tác vụ liên quan đến máy học như Live text, Emoji, sạc pin,... trở nên tối ưu hơn.</p>
+                                    <p>iPhone 13 Pro Max 128GB có thể cân hầu hết mọi tựa game nặng trên thị trường như PUBG Mobile, Genshin Impact, COD Online một cách mượt mà với cấu hình đồ họa ở mức cài đặt cao nhất. Kết hợp với màn hình 120Hz sẽ mang
+                                        lại cho người dùng trải nghiệm giải trí, chơi game vô cùng tuyệt vời.
+                                    </p>
+                                </div>
+                                <div class="txt3-con4">
+                                    <h4>Camera cao cấp với nhiều tính năng chụp ảnh mới</h4>
+                                    <p>
+                                        iPhone 13 Pro Max 128GB sẽ có cụm camera với thiết kế to hơn, lồi hơn 1 chút so với phiên bản tiền nhiệm. Tương tư với dòng iPhone 12 Pro Max, sản phẩm cũng sở hữu hệ thống 3 camera bao gồm: camera góc rộng, camera góc siêu rộng cùng camera tele cùng
+                                        độ phân giải 12MP và cảm biến LiDAR.
+
+                                    </p>
+                                    <img src="img/detail/ip13-4.jpg" id="img" alt="">
+                                    <p>
+                                        Với cảm biến và ống kính mới cho cả ba camera phía sau, kết hợp với sự tối ưu từ iOS 15 và bộ xử lý tín hiệu hình ảnh (ISP) trong vi xử lý A15 Bionic sẽ giúp chiếc máy cải thiện khả năng khử nhiễu, cân bằng trắng cũng như ánh sáng trên bức ảnh tốt hơn.
+                                        Từ đó giúp người dùng chụp ra được những bức ảnh có màu sắc đẹp hơn, chân thật hơn.
+
+                                    </p>
+                                </div>
+                                <div class="txt3-con5">
+                                    <img src="img/detail/ip13-5.jpg" id="img" alt="">
+                                    <p>
+                                        Về phần camera trước của thiết bị sẽ có độ phân giải 12MP với cảm biến lớn hơn. iPhone 13 Pro Max có thể chụp ảnh selfie góc rộng hơn so với thế hệ trước. Những tính năng selfie như: slow-motion, memoji và animoji cũng sẽ xuất hiện.
+                                    </p>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div id="feedback" class="block-section">
+                        <div class="block-feed">
+                            <h4 class="block-title">
+                                Hỏi đáp tư vấn
+                            </h4>
+                            <div class="block-content">
+                                <form action="review-form" method="post" action="" enctype="multipart/form-data">
+                                    <fieldset class="form-fiel">
+                                        <div class="fiel-review">
+                                            <div class="name">
+                                                <span>Họ và Tên</span><br />
+                                                <input type="text" name="name" id="name" required="required" style="padding: 2px; width: 80%;" placeholder="Nhập họ và tên" runat="server" /><br />
+                                            </div>
+                                            <div class="phone">
+                                                <span>Số điện thoại</span><br />
+                                                <input type="text" name="name" id="name" required="required" style="padding: 2px; width: 80%;" placeholder="Nhập số điện thoại" runat="server" /><br />
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <span>Nội dung đánh giá</span><br />
+                                        <textarea id="txtNoidung" cols="40" name="txtND" rows="15" runat="server" required="required" style="width: 80%;" placeholder="Mời bạn nhập nội dung"></textarea>
+                                        <br />
+                                        <div class="btn1">
+                                            <input type="button" value="Gửi" id="btnGui">
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                        </div>
+                        <hr class="line">
+                        <div class="question">
+                            <div class="block-content">
+                                <ol>
+                                    <li class="question-item">
+                                        <div class="ques-head">
+                                            <i class="fa-profile"></i>
+                                            <strong class="review-author">
+                                                Nguyen Van Hoang
+                                            </strong>
+                                        </div>
+                                        <div class="ques-item">
+                                            <div class="ques-content">
+                                                <p>Sản phẩm rất tốt, shop phục vụ nhiệt tình</p>
+                                            </div>
+                                            <div class="ques-detail">
+                                                <span class="ques-reply">
+                                                    <a href="#">Thảo luận</a>
+                                                </span>
+                                                <span class="ques-date">
+                                                    Đã đăng <time>7 giờ trước</time>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="question-item">
+                                        <div class="ques-head">
+                                            <i class="fa-profile"></i>
+                                            <strong class="review-author">
+                                                Hoang Thi Thanh
+                                            </strong>
+                                        </div>
+                                        <div class="ques-item">
+                                            <div class="ques-content">
+                                                <p>Shop phục vụ nhiệt tình, phù hợp với mọi lứa tuổi</p>
+                                            </div>
+                                            <div class="ques-detail">
+                                                <span class="ques-reply">
+                                                    <a href="#">Thảo luận</a>
+                                                </span>
+                                                <span class="ques-date">
+                                                    Đã đăng <time>3 giờ trước</time>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="xemthem">
+                                <details>
+                                    <summary>Xem Thêm</summary>
+                                </details>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="main-col4">
+                <div class="block-section">
+                    <div class="block-head">
+                        <p>Thông số | Kỹ thuật</p>
+                    </div>
+                    <hr class="line">
+                    <div class="block-content">
+
+                        <ul class="display">
+                            <li>
+                                <p>Công nghệ màn hình</p>
+                                <div>
+                                    <span>Super Retina XDR - ProMotion </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Độ phân giải</p>
+                                <div>
+                                    <span>2778x1284 pixel  </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Màn hình rộng</p>
+                                <div>
+                                    <span>6,7" - Tần số quét 120Hz</span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Mặt kính cảm ứng</p>
+                                <div>
+                                    <span>Kính cường lực Ceramic Shiel </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Camera sau</p>
+                                <div>
+                                    <span>3 camera 12MP </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Quay phim</p>
+                                <div>
+                                    <span>4K 2160@30fps/4K 
+                                        2160p@60fps / FullHD 1080p@120fps / HD 720p@30fps / FullHD 1080p@240fps / FullHD 1080p@60fps / 4K 2160p@24fps / FullHD 1080p@30fps
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Đèn Flash</p>
+                                <div>
+                                    <span>Có </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Chụp ảnh nâng cao</p>
+                                <div>
+                                    <span>Zoom quang học (Camera kép), Chụp ảnh xóa phông, A.I Camera, Tự động lấy nét, Chạm lấy nét, Nhận diện khuôn mặt, HDR, Panorama, Beautify </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Camera trước</p>
+                                <div>
+                                    <span>12MP </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Videocall</p>
+                                <div>
+                                    <span>HDR, Quay video Full HD </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Hệ điều hành</p>
+                                <div>
+                                    <span>IOS 15 </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Chipset (hãng SX CPU)</p>
+                                <div>
+                                    <span>Apple A15 Bionic </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Chip đồ họa (GPU)</p>
+                                <div>
+                                    <span>Apple GPU 5 nhân  </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>RAM - Bộ nhớ trong</p>
+                                <div>
+                                    <span>6GB - 128GB</span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Thẻ nhớ ngoài</p>
+                                <div>
+                                    <span>Không có </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Mạng di động</p>
+                                <div>
+                                    <span>Hỗ trợ 5G </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>SIM</p>
+                                <div>
+                                    <span>1 Nano SIM & 1eSIM </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Wifi </p>
+                                <div>
+                                    <span>Wifi 6 802.11 ax/b/g/n/ac/6e, dual-band, Wi-Fi Direct, hotspot </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>GPS</p>
+                                <div>
+                                    <span>QZSS, iBeacon, A-GPS, BDS, GALILEO, GLONASS </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Bluetooth</p>
+                                <div>
+                                    <span>
+                                        5.2, A2DP, LE, aptX HD</span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Cổng kết nối /sạc</p>
+                                <div>
+                                    <span>Lightning </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Jack tai nghe</p>
+                                <div>
+                                    <span>Lightning </span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Thiết kế</p>
+                                <div>
+                                    <span>Nguyên khối</span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Chất liệu</p>
+                                <div>
+                                    <span>Nhôm tái chế thân thiện với môi trường</span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Kích thước</p>
+                                <div>
+                                    <span>160.8 x 78.1 x 7.65 mm</span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Trọng lượng</p>
+                                <div>
+                                    <span>240g</span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Dung lượng pin</p>
+                                <div>
+                                    <span>4325 mAh</span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Loại pin</p>
+                                <div>
+                                    <span>Li-Ion</span>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Công nghệ pin</p>
+                                <div>
+                                    <span>Siêu tiết kiệm pin, Sạc pin nhanh 25W, Tiết kiệm pin</span>
+                                </div>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="main-row3">
+            <div class="bonus">
+                <div class="title-bonus">
+                    <h1>
+                        <a title="Các sản phẩm nổi bật" href="#">
+                            <p> Xem thêm điện thoại khác</p>
+                        </a>
+                    </h1>
+                </div>
+                <div class="xemthem">
+
+                    <p class="chitiet"><a href="index.html">Xem thêm >></a></p>
+                </div>
+                <div class="Grid-content">
+
+                    <div class="ite-con">
+                        <a href="sp.html"><img src="img/ip13.jpg" alt="">
+                        </a>
+                        <div class="ite-title">
+                            <h3 class="ip13"><a href="ip13.html">Iphone 13 512GB chính hãng (VN/A)</a></h3>
+                            <div class="price">
+                                <span class="normal-price">
+                                    <span class="sale">24.490.000&nbsp;đ</span>
+                                <span class="giagoc">31.890.000&nbsp;đ</span>
+                                </span>
+                                <div class="tratruoc">
+                                    <span class="label">Hoặc trả trước</span>
+                                    <span class="priceTratruoc">7.647.000&nbsp;đ</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="ite-con">
+                        <a href="sp.html"><img src="img/SamsungZFlip3.jpg" alt="">
+                        </a>
+                        <div class="ite-title">
+                            <h3 class="ip13"><a href="ip13.html">Samsung Galaxy Z Flip3 5G (8GB|256GB) Chính Hãng</a></h3>
+                            <div class="price">
+                                <span class="normal-price">
+                                    <span class="sale">20.390.000&nbsp;đ</span>
+                                <span class="giagoc">26.990.000&nbsp;đ</span>
+                                </span>
+                                <div class="tratruoc">
+                                    <span class="label">Hoặc trả trước</span>
+                                    <span class="priceTratruoc">2.039.000&nbsp;đ</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="ite-con">
+                        <a href="sp.html"><img src="img/remi10black.jpg" alt="">
+                        </a>
+                        <div class="ite-title">
+                            <h3 class="ip13"><a href="ip13.html">Xiaomi Redmi Note 10 (4GB|64GB) Chính Hãng</a></h3>
+                            <div class="price">
+                                <span class="normal-price">
+                                    <span class="sale">3.590.000&nbsp;đ</span>
+                                <span class="giagoc">3.990.000&nbsp;đ</span>
+                                </span>
+                                <div class="tratruoc">
+                                    <span class="label">Hoặc trả trước</span>
+                                    <span class="priceTratruoc">359.000&nbsp;đ</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="ite-con">
+                        <a href="sp.html"><img src="img/ip11.jpg" alt="">
+                        </a>
+                        <div class="ite-title">
+                            <h3 class="ip13"><a href="ip13.html">Iphone 11 128GB Chính Hãng</a></h3>
+                            <div class="price">
+                                <span class="normal-price">
+                                    <span class="sale">13.990.000&nbsp;đ</span>
+                                <span class="giagoc">18.590.000&nbsp;đ</span>
+                                </span>
+                                <div class="tratruoc">
+                                    <span class="label">Hoặc trả trước</span>
+                                    <span class="priceTratruoc">4.197.000&nbsp;đ</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="ite-con">
+                        <a href="sp.html"><img src="img/nokiaG10.png" alt="">
+                        </a>
+                        <div class="ite-title">
+                            <h3 class="ip13"><a href="ip13.html">Nokia G10 (4GB|64GB) Chính Hãng</a></h3>
+                            <div class="price">
+                                <span class="normal-price">
+                                    <span class="sale">2.990.000&nbsp;đ</span>
+                                <span class="giagoc">3.690.000&nbsp;đ</span>
+                                </span>
+                                <div class="tratruoc">
+                                    <span class="label">Hoặc trả trước</span>
+                                    <span class="priceTratruoc">900.000&nbsp;đ</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+        <div class="footer ">
+            <hr style="color:black;font-weight:bold; " />
+            <div style="height:20px; ">
+
+
+                <nav style="padding: 10px; ">
+                    <div class="Home">
+                        <div class="Home-img">
+                            <a href="index.html"> <img src="img/logo/logoT.png" alt=""></a>
+                        </div>
+                        <div class="Home-txt">
+                            <a href="index.html">
+                                <p>TECH.VN</p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="search ">
+                        <input type="text " class="txtSearch " placeholder="Nhập nội dung tìm kiếm ">
+                        <input type="button " value="Search " class="btn ">
+
+                    </div>
+
+                </nav>
+                <hr style="color:black;font-weight:bold; " />
+                <div class="fo" style="height:100px;">
+                    <div class="fo-left">
+                        <span>
+                        <h3>CHĂM SÓC KHÁCH HÀNG</h3>
+                        <P>Hotline: 1900 1111</P>
+                        <p>Giờ làm việc: 7:00 - 23:00</p>
+                        <p>Email hỗ trợ: hotro102@gmail.com</p>
+                        </span>
+                    </div>
+                    <div class="fo-center">
+                        <div class="listShop">
+                            <h3>HỆ THỐNG CỬA HÀNG</h3>
+                        </div>
+                        <div class="wraplist">
+                            <div class="itemList">
+                                <div class="addr">
+
+                                    <span>- Cơ sở 1:</span>
+                                    <a href="">96 Định Công, Thanh Xuân, Hà Nội</a>
+                                </div>
+                                <div class="phone">
+                                    <span>Hotline: </span>
+                                    <a href="">0988885688</a>
+                                </div>
+                            </div>
+                            <div class="itemList">
+                                <div class="addr">
+
+                                    <span>- Cơ sở 2:</span>
+                                    <a href="">Bách Khoa, Hai Bà Trưng, Hà Nội</a>
+                                </div>
+                                <div class="phone">
+                                    <span>Hotline: </span>
+                                    <a href="">0988886666</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fo-right">
+                        <span>
+                        <h3>ĐIỀU KHOẢN SỬ DỤNG</h3>
+    
+                        <span>Điều khoản chung <br>
+                        
+                            Điều khoản giao dịch <br>
+                             Chính sách thanh toán<br>
+                            Chính sách bảo mật<br>
+                            Câu hỏi thường gặp <br>
+                        </span>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="scroll"><a href="#">Lên đầu trang</a></div>
+
+            <div class="fooend" style="height:150px;text-align:center; padding-top: 210px;">
+
+                <p style="padding-bottom:10px;font-weight:bold;padding-top:20px;">CÔNG TY TNHH TECH.VN</p>
+                <p style="padding-bottom:5px;">Giấy CNĐKDN: 1234567890, đăng ký lần đầu ngày 02/02/2002, đăng ký thay đổi lần thứ 5 ngày 03/03/2003, cấp bởi Sở KHĐT thành phố Hà Nội.</p>
+                <p style="padding-bottom:5px;">Địa Chỉ: 96 Định Công, Hoàng Mai, Hà Nội.</p>
+                <p>Hotline: 1900 1111</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

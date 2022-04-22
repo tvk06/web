@@ -1,0 +1,458 @@
+.main-row {
+    display: flex;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.line {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-top: 1px solid #cccccc;
+    border-color: #e0e0e0;
+}
+
+.main-row .main-col9 {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 1024px;
+    padding-left: 40px;
+    padding-right: 20px;
+    /* flex-grow: 8;*/
+}
+
+.main-col9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.items1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 35px 35px 0;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.items1 .items1-img {
+    width: 40%;
+    position: relative;
+    float: left;
+}
+
+.items1-img #img1 {
+    max-width: 100%;
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.items1-img span {
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    float: left;
+    padding-right: 40px;
+}
+
+.items1 .items1-text {
+    width: 60%;
+    position: relative;
+    float: left;
+    padding-left: 30px;
+}
+
+.items1-text-1 h3 {
+    font-size: 28px;
+}
+
+.items1-text-1 .normal-pric {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.sales {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    color: #be1e2d;
+}
+
+#giagoc {
+    font-size: 13px;
+    color: rgb(160, 158, 158);
+    text-decoration: line-through;
+}
+
+.product-link {
+    overflow: hidden;
+}
+
+.grid-releated {
+    max-width: 980px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 100%;
+    margin-bottom: 10px;
+}
+
+.item-releated {
+    padding-top: 10px;
+}
+
+.item-releated a:hover {
+    background-color: white;
+    color: white;
+}
+
+.product-link a {
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #d1d1d1;
+    background: #f5f5f5;
+    padding: 5px 10px;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.product-link a span {
+    color: #333;
+    font-weight: bold;
+}
+
+.product-link a i {
+    display: none;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.product-link a strong .price-related {
+    font-size: 15px;
+    display: block;
+    color: #d9232e;
+    margin-top: 5px;
+}
+
+.fiel {
+    width: 520px;
+    max-width: 100%;
+}
+
+.table ul li {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+/* Đặt mua*/
+
+.box-tocart {
+    display: block;
+    margin: 10px 0;
+}
+
+.actions {
+    padding: 0px;
+    display: block;
+}
+
+button {
+    background: #be1e2d;
+    color: white;
+}
+
+.action2 {
+    width: 100%;
+    border-radius: 10px;
+    height: 57px;
+    padding: 5px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.action2 span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.main-col3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.main-row .main-col3 {
+    max-width: 344px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/*BẢO HÀNH*/
+
+.block-section {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 15px 15px 0;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.info-BH {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.info-content p {
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.info-V2-1 {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+ul>li {
+    font-size: 13px;
+    line-height: 25px;
+    list-style: none;
+}
+
+
+/* --------------------------------------------------Main row 2-------------------------------------------------------------------------*/
+
+.main-row2 {
+    display: flex;
+    flex-flow: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.main-row2 .main-col8 {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 1024px;
+    padding-left: 40px;
+    padding-right: 20px;
+    /* flex-grow: 8;*/
+}
+
+.main-col8 {
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+
+.intro-pro {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px 15px 0;
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.txt1 p {
+    width: 820px;
+}
+
+.txt2 p {
+    padding-top: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    width: 820px;
+}
+
+.txt3 .txt3-con1 p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 820px;
+}
+
+#img {
+    max-width: 100%;
+    width: 820px;
+}
+
+.txt3-detail p {
+    width: 820px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+
+/****************** FEEDBACK ************************/
+
+.feedback {
+    background-color: #333;
+}
+
+.form-fiel {
+    border: none;
+}
+
+.fiel-review {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 10px;
+}
+
+.btn1 {
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+#btnGui {
+    float: right;
+    width: 150px;
+    height: 30px;
+    background-color: #d9232e;
+    color: #ffffff;
+}
+
+
+/***** câu trả lời */
+
+.question {
+    padding-top: 0px;
+}
+
+ol>li {
+    list-style-type: none;
+}
+
+.question-item {
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.question-head {
+    display: flex;
+}
+
+.fa-profile {
+    background: url(img/12X.jpg) no-repeat;
+    width: 12px;
+    height: 15px;
+}
+
+.review-author {
+    display: block;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.ques-content {
+    padding: 10px 0px;
+}
+
+.ques-content p {
+    padding-left: 20px;
+}
+
+.ques-reply {
+    font-size: 13px;
+    padding-right: 30px;
+}
+
+.ques-reply a {
+    color: #828282;
+    background: url(../images/comment-icon.png) no-repeat;
+    padding-left: 20px;
+    background-size: 16px;
+}
+
+.ques-date {
+    font-size: 13px;
+    color: #828282;
+}
+
+
+/**** Thông số kỹ thuật *******/
+
+.main-col4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+.main-row2 .main-col4 {
+    max-width: 416px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.block-content .display li {
+    display: flex;
+    -webkit-display: flex;
+    flex-flow: row nowrap;
+    flex: 1 100;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.display li p {
+    width: 100px;
+}
+
+.display>li {
+    font-size: 12px;
+}
+
+.display li div {
+    padding: 0 5px 0 25px;
+    width: calc(100% - 100px);
+}
+
+.display li:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+
+/*------------------------------------------------------Xem thêm điện thoại khác------------------------------------------------------*/
+
+.main-row3 {
+    padding-top: 20px;
+}
+
+.title-bonus {
+    display: inline-block;
+    margin: 20px;
+    margin-left: 45px;
+    border-radius: 0;
+    width: 300px;
+}
+
+.title-bonus a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    line-height: 15px;
+    padding-left: 50px;
+    padding: 20px;
+}
+
+.title-bonus a p {
+    font: 20px/22px Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+}

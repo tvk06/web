@@ -1,0 +1,59 @@
+.main-LH {
+    margin: 50px;
+}
+
+.main-LH form {
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 450px;
+}
+
+.LH-head p {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.LH-content {
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.LH-content textarea {
+    width: 100%;
+}
+
+.main-LH fieldset {
+    padding-top: 10px;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 200px;
+}
+
+.hotro {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.hotro-head p {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.CSKH-txt {
+    line-height: 30px;
+}
+
+.CSKH-num {
+    line-height: 30px;
+}
